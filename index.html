@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distance Matrix Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Distance Calculator</h1>
+        
+        <!-- Form to select origin and destination -->
+        <form id="distanceForm">
+            <label for="origin">Select Origin:</label>
+            <input type="text" id="origin" placeholder="Enter origin location (e.g., Mumbai)" required>
+            
+            <label for="destination">Select Destination:</label>
+            <input type="text" id="destination" placeholder="Enter destination location (e.g., Delhi)" required>
+            
+            <button type="submit">Calculate Distance</button>
+        </form>
+
+        <!-- Display the result -->
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
